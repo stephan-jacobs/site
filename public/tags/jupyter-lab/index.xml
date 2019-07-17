@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Stephan Jacobs</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Stephan Jacobs</description>
+    <title>Jupyter Lab on Stephan Jacobs</title>
+    <link>/tags/jupyter-lab/</link>
+    <description>Recent content in Jupyter Lab on Stephan Jacobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/jupyter-lab/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>So full disclosure, most (most, not all) of what I&amp;rsquo;m telling you below is based on this very helpful page from the Anaconda docs
 But the point of writing this guide is to give you some other useful information along the way :)
 Getting started The first thing you need to do is create a new conda environment. This basically means you have a special folder somewhere that contains a totally different set of installed packages.</description>
-    </item>
-    
-    <item>
-      <title>How to set up Atom to look and (sort of) behave like RStudio</title>
-      <link>/post/how-to-set-up-atom-to-look-and-sort-of-behave-like-rstudio/</link>
-      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/how-to-set-up-atom-to-look-and-sort-of-behave-like-rstudio/</guid>
-      <description>I love RStudio. It&amp;rsquo;s great. I didn&amp;rsquo;t really appreciate how great it was when I was just using RStudio to be honest, but when I started using Python more I missed some of its features a lot. About a year later, I&amp;rsquo;ve finally managed to (almost) duplicate its data focused interactive workflow in a well maintained IDE. That IDE is Atom
-What exactly do I mean by RStudio (sort of)?</description>
     </item>
     
   </channel>

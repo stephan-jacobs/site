@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  
+
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <title>
+    
+    
+     How to run both R and Python in Jupyter Lab session with Anaconda 
+    
+  </title>
+  <link rel="canonical" href="/post/how-to-run-both-r-and-python-in-jupyter-lab-session-with-anaconda/">
+
+  <link rel="stylesheet" href="/css/fonts.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+
+  
+</head>
+
+<body>
+<section id=nav>
+  <h1><a href="/">Stephan Jacobs</a></h1>
+  <ul>
+    
+    <li><a href="https://stephanjacobs.io">Home</a></li>
+    
+    <li><a href="https://github.com/stephan-jacobs">GitHub</a></li>
+    
+  </ul>
+</section>
+
+
+<section id=content>
+  <h1> How to run both R and Python in Jupyter Lab session with Anaconda </h1>
+
+  <div id=sub-header>
+    Stephan Jacobs · 2019/07/17 · 3 minute read
+  </div>
+
+  <div class="entry-content">
+    
+
+<p>So full disclosure, most (<em>most</em>, not all) of what I&rsquo;m telling you below is based on <a href="https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/">this very helpful page from the Anaconda docs</a></p>
+
+<p>But the point of writing this guide is to give you some other useful information along the way :)</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>The first thing you need to do is create a new conda environment. This basically
+ means you have a special folder somewhere that contains a <strong>totally different</strong>
+ set of installed packages. Everything from numpy to dplyr goes in there.</p>
+
+<blockquote>
+<p>Yes the R things and Python things are in the same folder, but there&rsquo;s a catch. See below ;)</p>
+</blockquote>
+
+<p>So if you have some Python stuff in your conda environment already, and some
+R packages you&rsquo;ve already installed before creating this new conda environment
+then it doesn&rsquo;t make an ounce of a difference. Consider this new environment to
+be basically starting from scratch.</p>
+
+<p>Anyhoo, follow the instructions in <a href="https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/">that link up there</a> to get started.</p>
+
+<p>Done? Good!</p>
+
+<blockquote>
+<p><strong>The catch</strong></p>
+
+<p><em>All the R packages simply have &lsquo;r-&rsquo; prepended to their name</em></p>
+
+<p>So for Python do: <code>conda install matplotlib</code>
+And instead for R: <code>conda install r-ggplot2</code></p>
+</blockquote>
+
+<h2 id="install-all-the-packages-you-want-to-use-for-python">Install all the packages you want to use for Python</h2>
+
+<p>You know, pandas, numpy, matplotlib, whatever it is you always use. And if
+there&rsquo;s a weird package you need for just the one project, environments are a
+<em>great</em> way of organising that.</p>
+
+<blockquote>
+<p>So I just install my new packages the way I always do?</p>
+</blockquote>
+
+<p><strong>NO!</strong></p>
+
+<p>You install them the special way!</p>
+
+<p>The full details of the special way can be found <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">here</a> but I&rsquo;ll give you the most
+important things:</p>
+
+<h4 id="1-create-new-conda-environent">1. Create new conda environent</h4>
+
+<p>As per the <a href="https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/">instructons at the top</a>.</p>
+
+<p>For this example we&rsquo;ll call it <code>ProjectAwesomeEnvironment</code>, but in real life
+you&rsquo;ll probably want to stick to something a bit shorter.</p>
+
+<h4 id="2-activate-that-environment">2. Activate that environment:</h4>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">C:<span style="color:#a31515">\&gt;</span> conda activate ProjectAwesomeEnvironment</code></pre></div>
+<p>At this point, if you&rsquo;re using Anaconda prompt in Windows you might see something like:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">(ProjectAwesomeEnvironment) C:<span style="color:#a31515">\&gt;</span></code></pre></div>
+<h4 id="3-intall-your-packages">3. Intall your packages:</h4>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">(ProjectAwesomeEnvironment) C:<span style="color:#a31515">\&gt;</span> conda install pandas</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">(ProjectAwesomeEnvironment) C:<span style="color:#a31515">\&gt;</span> conda install r-dplyr</code></pre></div>
+<h4 id="4-finish-up">4. Finish up</h4>
+
+<p>Once you&rsquo;re done you can either:</p>
+
+<ol>
+<li>simply close the command prompt</li>
+<li>exit/deactivate the environment like so:
+<code>bash
+(ProjectAwesomeEnvironment) C:\&gt; conda deactivate
+</code>
+
+<strong>You&rsquo;re set!</strong>
+
+
+## Now to do your actual work:
+
+#### 1. Select your environment in Anaconda navigator
+
+You might notice that the applications on Anaconda&rsquo;s homepage are different
+depending on which environment you&rsquo;re on. That&rsquo;s ok! Just click <em>Install</em> for
+whichever application you want in that environment.
+
+For a combined R and Python environment you will very likely be interested in
+both Jupyter {Lab, Notebooks}, and RStudio. But hey, don&rsquo;t let me tell you how
+to live your life.
+
+#### 2. Launch the application you want to work with
+This makes sure that whatever your preferred Anaconda distributed application
+might be, it&rsquo;s looking at the right set of packages. The one that you&rsquo;ve
+painstakingly put together
+
+## 🐒</li>
+</ol>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="/post/how-to-set-up-atom-to-look-and-sort-of-behave-like-rstudio/">&laquo; How to set up Atom to look and (sort of) behave like RStudio</a>
+    
+    
+  </div>
+</section>
+
+<section id="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+      
+      
+      if (window.location.hostname == "localhost")
+                return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = '';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+  
+  
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+</body>
+</html>
+

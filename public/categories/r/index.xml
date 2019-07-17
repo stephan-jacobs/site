@@ -6,20 +6,20 @@
     <description>Recent content in R on Stephan Jacobs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>How to run both R and Python in Jupyter Lab session with Anaconda</title>
+      <link>/post/how-to-run-both-r-and-python-in-jupyter-lab-session-with-anaconda/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/post/how-to-run-both-r-and-python-in-jupyter-lab-session-with-anaconda/</guid>
+      <description>So full disclosure, most (most, not all) of what I&amp;rsquo;m telling you below is based on this very helpful page from the Anaconda docs
+But the point of writing this guide is to give you some other useful information along the way :)
+Getting started The first thing you need to do is create a new conda environment. This basically means you have a special folder somewhere that contains a totally different set of installed packages.</description>
     </item>
     
   </channel>
