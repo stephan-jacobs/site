@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Satellite Images on Stephan Jacobs</title>
+    <link>/tags/satellite-images/</link>
+    <description>Recent content in Satellite Images on Stephan Jacobs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/satellite-images/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Satellite Pictures Make Me Happy</title>
+      <link>/post/satellite-pictures-make-me-happy/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/satellite-pictures-make-me-happy/</guid>
+      <description>I recently started using Downlink on my Mac and I have not been this delighted with a piece of software in quite some time!
+To give you an idea, every morning when I come into the office I turn on my computer and I see something like this:
+I mean, what a view!
+Things I Particularly Enjoy 1. Cloud Shadows You only really see this at the very edges of the sunlight around dawn or dusk, because for the shadow of the cloud to be seen, it has to be very far from the cloud sideways (otherwise it&amp;rsquo;s hidden behing the cloud compared to the satellite).</description>
+    </item>
+    
+  </channel>
+</rss>
