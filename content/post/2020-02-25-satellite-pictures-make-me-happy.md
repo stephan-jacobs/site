@@ -50,6 +50,8 @@ It's getting to the point now where most of the images of the really bad bushfir
 
 Information like this - Straight from an objective source, undoctored and without spin - is the kind of thing I find really helpful to ground me in times when the press gets carried away with spinning their yarn.
 
+### Notes
+
 Images used by Downlink and by me for this post come from the [Colorado State University's site](http://rammb.cira.colostate.edu/ramsdis/online/himawari-8.asp). They have lots of different images from Himawari 8 (the satellite where I got the above pictures) but also images from other earth observation satellites!
 
 The _Full Disk Geocolor_ section produces the most natural looking images (like the ones I used here) but the satellites are capable of quite a lot more useful things than just making pretty pictures so go have a look around if you're curious 🤓
