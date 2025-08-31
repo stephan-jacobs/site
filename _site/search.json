@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a data scientist and boy do I love me some data and some science! I do all kinds of data stuff in my job but I also tutor stats subjects at UQ and do a couple of nerdy hobbies.\nIn spite of appearances I am not a Paleontologist. I just know a photogenic ornithischian when I see one."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stephan Jacobs",
+    "section": "",
+    "text": "I am a data scientist and boy do I love me some data and some science!\nI do all kinds of data stuff in my job but I also tutor stats subjects at UQ and do a couple of nerdy hobbies.\nIn spite of appearances I am not a Paleontologist. I just know a photogenic ornithischian when I see one.\n📊⌨️📷📚️"
+  },
+  {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Why I like weird keyboards",
+    "section": "",
+    "text": "In short: The standard keyboard layout we are all used to hasn’t had any proper design attention since typewriters were first invented. So someone taking a fresh look at how we get text into a computer today might come up with a different solution. At the very least the way the keys are arranged might be a little different?\nI don’t think this is for everyone, but I wanted to explore what this might look like. So here I am! I have two weird keyboards!"
+  },
+  {
+    "objectID": "keebs.html",
+    "href": "keebs.html",
+    "title": "Why I Like Weird Keyboards",
+    "section": "",
+    "text": "In short: The standard keyboard layout we are all used to hasn’t had any proper design attention since typewriters were first invented. So someone taking a fresh look at how we get text into a computer today might come up with a different solution. At the very least the way the keys are arranged might be a little different?\nI don’t think this is for everyone, but I wanted to explore what this might look like. So here I am! I have two weird keyboards!"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Project Blog",
+    "section": "",
+    "text": "Why I Like Weird Keyboards ⌨️\n\n\n\nKeyboards\n\n\n\nIn short: They’re interesting and fun!\n\n\n\nStephan\n\n\n31 Aug '25\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/keyboards/index.html",
+    "href": "posts/keyboards/index.html",
+    "title": "Why I Like Weird Keyboards ⌨️",
+    "section": "",
+    "text": "Top: My split keyboard based on the Ferris Sweep.\nBottom: My (very strange-looking) hand-wired Planck that I reverse engineered into an OLKB case."
+  },
+  {
+    "objectID": "posts/keyboards/index.html#where-it-started",
+    "href": "posts/keyboards/index.html#where-it-started",
+    "title": "Why I Like Weird Keyboards ⌨️",
+    "section": "Where it started",
+    "text": "Where it started\nThe standard QWERTY keyboard layout we all use came has been around since the days of typewriters. The first QWERTY keyboard was used on a typewriter in 1878! There is some disagreement (according to Wikipedia at least) about how much thought went into things like letter frequencies and letters that often follow each other (called bigrams in some circles 🤓).\nThe story goes that the keys in each row were offset a little (i.e. A is not directly below Q) because that’s a practical reality of the way a typewriter’s mechanism works. This makes sense to me but I couldn’t find a solid reference so I can imagine the story is a bit more complicated.\n\n\n\nA QWERTY keyboard from 1878 (By Martin Howard - Own work, CC BY-SA 4.0, Wikemedia Link)"
+  },
+  {
+    "objectID": "posts/keyboards/index.html#the-bottom-line",
+    "href": "posts/keyboards/index.html#the-bottom-line",
+    "title": "Why I Like Weird Keyboards ⌨️",
+    "section": "The Bottom Line",
+    "text": "The Bottom Line\nWe have the tools now to make keyboards that So someone taking a fresh look at how we get text into a computer today might come up with a different solution. At the very least the way the keys are arranged might be a little different.\nI don’t think this is for everyone, but I wanted to explore what this might look like. So here I am! I have two weird keyboards!"
+  },
+  {
+    "objectID": "posts/keyboards/index.html#some-new-ideas",
+    "href": "posts/keyboards/index.html#some-new-ideas",
+    "title": "Why I Like Weird Keyboards ⌨️",
+    "section": "Some new ideas",
+    "text": "Some new ideas\nSomeone taking a fresh look at how we get text into a computer today might come up with a very different solution to typewriters in 1878. At the very least you might expect the way the keys are arranged to be a little different. Since our keyboards are no longer actuated by levers and we have the tools for people to make their own keyboards in just about all shapes and sizes it’s probably not surprising that people have tried out quite a few of these solutions.\nI won’t talk about all the ideas, this video gives a good and brief overview if you’re interested, but the basic gist is this:\n\nPutting keys directly below each other, instead of having them slightly offset like on a standard keyboard, makes it easier for your fingers to get to where they’re going and means they don’t have to get pulled into weird positions too often.\nPut the most used keys directly below where your fingers rest on the board, that way you just push the easiest-to-reach buttons most of the time.\nGive each hand its own separate set of keys. Proper touch typing has no overlap between the hands anyway so why not separate the keys / buttons entirely?\n\nThe image at the top shows you two results that come out of this kind of idea but trust me, there are many more!\nI don’t think this is for everyone, but I wanted to explore what this might look like. So here I am! I have two weird keyboards!\nEventually I’ll put up a build log of the two boards. The rectangular one (called a Planck1) was a rescue! I got a faulty one for cheap on FB Marketplace with dreams of fixing the PCB, but after I realised just how delusional that was2 I decided to take on an only slightly less delusional project by handwiring the keyboard inside the existing case (see below). That’s not the reason why the key layout looks so strange though, that’s a whole ’nother story.\n\n\n\nThe hand-built keys before they were put into the case. The structure around the keys is laser-cut acrylic."
+  },
+  {
+    "objectID": "posts/keyboards/index.html#footnotes",
+    "href": "posts/keyboards/index.html#footnotes",
+    "title": "Why I Like Weird Keyboards ⌨️",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nbecause it’s rectangular but also smol↩︎\nFixing electronics is hard folks.↩︎"
+  }
+]

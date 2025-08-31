@@ -1,0 +1,9 @@
+---
+title: "Project Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  date-format: "DD MMM 'YY"
+---

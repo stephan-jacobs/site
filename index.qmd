@@ -1,0 +1,23 @@
+---
+title: "Stephan Jacobs"
+# subtitle: "Data Scientist, stats tutor, and enthusiast of nerdy hobbies ⌨️📷📚️️"
+# subtitle: "📊⌨️📷📚️️"
+image: images/IMG_8460.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      # text: LinkedIn
+      href: www.linkedin.com/in/stephanjacobs1
+    - icon: github
+      # text: GitHub
+      href: www.github.com/stephan-jacobs
+---
+
+I am a data scientist and boy do I love me some data and some science! 
+
+I do all kinds of data stuff in my job but I also tutor stats subjects at UQ and do a couple of nerdy hobbies. 
+
+In spite of appearances I am not a Paleontologist. I just know a photogenic [ornithischian](https://en.wikipedia.org/wiki/Ornithischia) when I see one.
+
+📊⌨️📷📚️

@@ -1,0 +1,44 @@
+---
+title: "Why I Like Weird Keyboards ⌨️"
+description: "In short: They're interesting and fun!"
+author: "Stephan"
+date: "31 Aug 2025"
+date-format: "DD MMM YYYY"
+categories:
+  - Keyboards
+---
+
+![**Top:** My split keyboard based on the Ferris Sweep.\
+**Bottom:** My (very strange-looking) hand-wired Planck that I reverse engineered into an OLKB case.](IMG_7807.jpeg)
+
+## Where it started
+
+The standard QWERTY keyboard layout we all use came has been around [since the days of typewriters](https://en.wikipedia.org/wiki/QWERTY). The first QWERTY keyboard was used on a typewriter in 1878! There is some disagreement (according to Wikipedia at least) about how much thought went into things like letter frequencies and letters that often follow each other (called bigrams in some circles 🤓).
+
+The story goes that the keys in each row were offset a little (i.e. A is not directly below Q) because that's a practical reality of the way a typewriter's mechanism works. This makes sense to me but I couldn't find a solid reference so I can imagine the story is a bit more complicated.
+
+![A QWERTY keyboard from 1878 (By Martin Howard - Own work, CC BY-SA 4.0, [Wikemedia Link](https://commons.wikimedia.org/w/index.php?curid=146838108))](https://upload.wikimedia.org/wikipedia/commons/a/ad/Remington_2_typewriter_keyboard.jpg "An image of a typewriter from 1878 with a QWERTY layout.")
+
+## Some new ideas
+
+Someone taking a fresh look at how we get text into a computer today might come up with a very different solution to typewriters in 1878. At the very least you might expect the way the keys are arranged to be a little different. Since our keyboards are no longer actuated by levers and we have the tools for people to make their own keyboards in [just about all shapes and sizes](www.reddit.com/r/ErgoMechKeyboards/) it's probably not surprising that people have tried out quite a few of these solutions.
+
+I won't talk about all the ideas, [this video gives a good and brief overview if you're interested](https://www.youtube.com/watch?v=Ho_CFfdsmc8), but the basic gist is this:
+
+1.  Putting keys directly below each other, instead of having them slightly offset like on a standard keyboard, makes it easier for your fingers to get to where they're going and means they don't have to get pulled into weird positions too often.
+
+2.  Put the most used keys directly below where your fingers rest on the board, that way you just push the easiest-to-reach buttons most of the time.
+
+3.  Give each hand its own separate set of keys. Proper touch typing has no overlap between the hands anyway so why not separate the keys / buttons entirely?
+
+The image at the top shows you two results that come out of this kind of idea but trust me, there are many more!
+
+I don't think this is for everyone, but I wanted to explore what this might look like. So here I am! I have two weird keyboards!
+
+Eventually I'll put up a build log of the two boards. The rectangular one (called a [Planck](https://olkb.com/collections/planck)[^1]) was a rescue! I got a faulty one for cheap on FB Marketplace with dreams of fixing the PCB, but after I realised just how delusional that was[^2] I decided to take on an only slightly less delusional project by handwiring the keyboard inside the existing case (see below). That's not the reason why the key layout looks so strange though, that's a whole 'nother story.
+
+[^1]: because it's rectangular but also ~smol~
+
+[^2]: Fixing electronics is hard folks.
+
+![The hand-built keys before they were put into the case. The structure around the keys is laser-cut acrylic.](IMG_1245.jpeg){width="750"}

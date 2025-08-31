@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Stephan Jacobs"
+  favicon: assets/favicon_io/favicon-32x32.png
+  navbar:
+    left:
+      - icon: robot
+        href: index.qmd
+        text: About
+      # - icon: keyboard
+      #   href: keebs.qmd
+      #   text: Keyboards!
+      - icon: tools
+        href: projects.qmd
+        text: Projects
+
+        
+format:
+  html:
+    theme: lumen
+    css: styles.css
+    toc: true
+
+editor: visual
+
+execute:
+  freeze: auto
